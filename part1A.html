@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Marie">
+        <title>CSIS 1280 Practice - Part1A</title>
+        <link href="css/style.css" rel="stylesheet">
+
+        <script src="script/part1A.js"></script>
+    </head>
+    <body>
+        <h1>FIFA 2018 WORDLCUP Quarter-Finals Countries</h1>
+        <section id="fifa-table">
+            <table>
+                <tr>
+                    <td id="table-header" colspan="4">Click on the radio button to view the flag</td>
+                </tr>
+                <tr>
+                    <td id="countries">
+                        <span id="fifa-countries">
+                            <span><input type="radio" name="fifa-country" id="belgium" value="Belgium" onclick="changeImage()">Belgium</span><br>
+                            <span><input type="radio" name="fifa-country" id="brazil" onclick="changeImage()">Brazil</span><br>
+                            <span><input type="radio" name="fifa-country" id="croatia" onclick="changeImage()">Croatia</span><br>
+                            <span><input type="radio" name="fifa-country" id="england" onclick="changeImage()">England</span><br>
+                            <span><input type="radio" name="fifa-country" id="france" onclick="changeImage()">France</span><br>
+                            <span><input type="radio" name="fifa-country" id="russia" onclick="changeImage()">Russia</span><br>
+                            <span><input type="radio" name="fifa-country" id="sweden" onclick="changeImage()">Sweden</span><br>
+                            <span><input type="radio" name="fifa-country" id="uruguay" onclick="changeImage()">Uruguay</span><br>
+                        </span>
+                    </td>
+                    <td>
+                        <div id="image_target">
+                            <img src="" id="image_src" alt="">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <p>Sources:<br>
+                        <a href="https://www.fifa.com/worldcup/">https://www.fifa.com/worldcup/</a><br>
+                        <a href="https://www.countryflags.com">https://www.countryflags.com</a></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <nav>
+            <a href="part2.html">Part 2</a>
+            <a href="smiley.html">Smiley</a>
+        </nav>
+    </body>
+</html>

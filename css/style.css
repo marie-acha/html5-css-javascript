@@ -1,0 +1,67 @@
+/* YOU CANNOT MODIFY THIS FILE */
+
+body{
+    padding: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.white{
+    background-color: white;
+}
+
+section#container{
+    display: grid;
+    grid-template-columns: repeat(12, 30px);
+    grid-template-rows: repeat(12, 30px);
+}
+div{
+    border: 1px solid black;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0;
+}
+
+td{
+    border: 2px solid black;
+}
+
+#table-header{
+   font-size: large;
+   font-weight: bold;
+   padding: 10px;
+   text-align: center;
+}
+
+#countries{
+    padding: 15px;
+    margin: 0;
+    width: 160px;
+}
+
+p{
+    padding: 5px;
+    margin: 0;
+}
+
+#image_target{
+    padding: 10px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+}

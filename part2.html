@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Marie">
+        <title>CSIS 1280 Practice - Part2</title>
+        <link href="css/part2.css" rel="stylesheet">
+
+        <script src="script/part2.js"></script>
+        <script src="script/part2_initialization.js"></script>
+        <script src="script/Feedback.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Feedback Collection System using HTML, CSS, and JavaScript
+            </h1>
+        </header>
+        <section>
+            <form name="myform" action='' method="get">
+                <fieldset>
+                    <legend>Feedback Input</legend>
+                    <div id="errorMessage"></div>
+                    <div>
+                        <label for="firstName_id">First Name</label>
+                        <input type="text" name="firstName" id="firstName_id" maxlength="15" required>
+                    </div>
+                    <div>
+                        <label for="lastName_id">Last Name</label>
+                        <input type="text" name="lastName" id="lastName_id" maxlength="15" required>
+                    </div>
+                    <div>
+                        <label for="courseName">Course</label>
+                        <span>
+                            <input type="radio" name="courseName" id="csis1280" value="CSIS 1280">CSIS 1280 <br>
+                            <input type="radio" name="courseName" id="csis1175" value="CSIS 1175">CSIS 1175 <br>
+                            <input type="radio" name="courseName" id="csis2200" value="CSIS 2200">CSIS 2200
+                        </span>
+                    </div>
+                    <div> 
+                        <label for="feedback_id">Feedback</label>
+                        <span>
+                            <select name="feedback" id="feedback_id" required>
+                              
+                            </select>
+                        </span>
+                    </div>
+                    
+                    
+                    <div>
+                        <input type="button" id="submitBtn" name="submit_input" value="Submit Input">
+                    </div>
+            </fieldset>
+            <fieldset id = "target_feedback">
+                <legend>Feedback Summary</legend>
+                <div id="feedback-list">
+
+                </div>
+            </fieldset>
+            </form>
+        </section>
+        <nav>
+            <a href="part1A.html">Part1A</a>
+            <a href="smiley.html">Smiley</a>
+        </nav>
+    </body>
+</html>
